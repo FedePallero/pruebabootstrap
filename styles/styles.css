@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+       /* header */
+
+header {
+    height: 20vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    background-image : url(../assets/images/fondo-nutricion.jpg);
+
+    }
+
+
+.navbar{
+    display: flex;
+}
+
+.titulo__contacto{
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+
+}
+
+.menu__item{
+    margin-left: 10px;
+    background-color: chocolate;
+    color: white;
+    border-radius: 30%;
+    padding: 10px;
+
+}
+
+
+.menu__enlace{
+    color: white;
+}
+
+    .logo__nav{
+        width: 120px;
+        height: 100%;
+        justify-content: start;
+    }
+
+        /* MAIN DEL FORMULARIO */
+
+.main__formulario{
+    height: 65vh;
+    display: flex;
+
+}
+
+.main__formulario img{
+    height: 300px;
+    width: 50%;
+
+}
+
+.form__entero{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.articulo__formulario{
+    display: flex;
+    background-color: grey;
+    padding: 15px ;
+    font-family: cursive;
+
+}
+
+
+
+.div__mapa img {
+    height: 100px;
+
+}
+
+
+            /* ESTILOS INICIO */
+
+.main__inicio{
+    width: 100%;
+    height: 65vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "titulo  titulo"
+    "parrafo foto"
+    "parrafo foto";
+  }
+
+.inicio__titulo {
+    display: grid;
+    justify-content: start;
+    align-content: flex-end;
+    font-size: xx-large;
+    grid-area: titulo;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 100px;
+  }
+
+  .incio__parrafo{
+    grid-area: parrafo;
+  }
+
+  .parrafo__solo{
+    height: 100%;
+    align-items:  center;
+
+  }
+
+
+.main__inicio__foto img{
+    width: 80%;
+    height: 350px;
+    grid-area: foto;
+    margin-left: 80px;
+  }
+
+  /* ESTILOS GALERIA */
+
+  .main__galeria{
+    width: 100%;
+    height: 65vh;
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    grid-template-rows:1fr 1fr ;
+    grid-template-areas: 
+    "galeria1  galeria2"
+    "galeria3  galeria4";
+  }
+
+  .galeria1{
+    grid-area: galeria1;
+
+  }
+
+  .galeria2{
+    grid-area: galeria2;
+
+  }
+
+  .galeria3{
+    grid-area: galeria3;
+
+  }
+
+  .galeria4{
+    grid-area: galeria4;
+
+  }
+
+  .foto,p{
+    display: flex;
+    justify-content: center;
+  }
+
+  /* ESTILOS PRODUCTOS */
+
+    .main__productos{
+        height: 65vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .producto{
+        height: 400px;
+        width: 15%;
+        border-style: solid;
+        background-color: aquamarine;
+        padding: 10px;
+        overflow: hidden;
+    }
+
+    .producto__imagen{
+        height: 150px;
+        max-width: 100%;
+        border-radius: 25%;
+        padding: 10px;
+        }
+
+  /* ESTILOS RECETAS */
+
+  .main__recetas{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+.producto__receta{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 10px;
+}
+
+  .producto__receta img{
+    width: 100%;
+    height: 200px;
+  }
+
+
+    /* FOOTER (TODOS) */
+
+footer{
+    display: flex;
+    bottom: 0;
+    height: 15vh;
+    background-color: chocolate;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+
+
+
+
+
+
+
