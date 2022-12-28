@@ -42,10 +42,11 @@ header {
 
 .menu__item{
     margin-left: 10px;
-    background-color: chocolate;
+    background-color: rgb(247, 117, 30);
     color: white;
     border-radius: 30%;
     padding: 10px;
+    
 
 }
 
@@ -59,7 +60,7 @@ header {
         height: 100%;
         justify-content: start;
     }
-
+   
         /* MAIN DEL FORMULARIO */
 
 .main__formulario{
@@ -84,9 +85,10 @@ header {
 
 .articulo__formulario{
     display: flex;
-    background-color: grey;
+    /* background-color: grey; */
     padding: 15px ;
     font-family: cursive;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 
 }
 
@@ -191,9 +193,11 @@ header {
         height: 400px;
         width: 15%;
         border-style: solid;
-        background-color: aquamarine;
+        /* background-color: aquamarine; */
         padding: 10px;
         overflow: hidden;
+        background-image: linear-gradient(to right, #fa70994e 0%, #fee14056 100%);
+
     }
 
     .producto__imagen{
@@ -232,9 +236,10 @@ footer{
     flex-wrap: wrap;
     bottom: 0;
     height: 15vh;
-    background-color: chocolate;
+    /* background-color: chocolate; */
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
     }
 
 
